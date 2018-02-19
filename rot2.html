@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+	<title>Rot2</title>
+    <script type="text/javascript" src="Rot2.js"></script>
+    <style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+</style>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="Atbash.html">The Atbash Cipher</a>
+  <a href="Ceaser.html">The Ceaser Cipher</a>
+  <a href="Rot2.html">Rot2</a>
+  <a href="Vigenere.html">The Vigenere Cipher</a>
+
+</div>
+
+</head>
+<body>
+    <h1>Rot2 - A Ceaser Cipher</h1>
+
+
+    <p>A Ceaser Cipher is rather simple, each letter is replaced by another letter determined by a set number, for example Rot2 simply means
+    to replace each letter by the 2nd letter down.Below is an image representing how the cipher works</p>
+
+    <img src="011817_1537_AnExaminati1.jpg" alt="A Rot2 Ceaser Cipher">
+    <p style="font-size:10px"> image source -<a href= "http://resources.infosecinstitute.com/an-examination-of-the-caesar-methodology-ciphers-vectors-and-block-chaining/#gref">
+        http://resources.infosecinstitute.com/an-examination-of-the-caesar-methodology-ciphers-vectors-and-block-chaining/#gref </a> </p>
+
+
+
+      <form wrap="soft">
+        Give it a go:<br>
+  <input type="text" id="rot"><br>
+
+      </form>
+
+    <button type="button" onclick= ciphering();>encrypt</button>
+    <button type="button" onclick=decipher();>decrypt</button>
+    <p id="test"></p>
+
+
+
+
+
+
+
+
+</body>
+</html>

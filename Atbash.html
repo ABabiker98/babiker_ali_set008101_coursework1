@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="stylesheet.css">
+  <script type="text/javascript" src="atbash.js"></script>
+
+    <title>Atbash Cipher</title>
+    <style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="Atbash.html">The Atbash Cipher</a>
+  <a href="Ceaser.html">The Ceaser Cipher</a>
+  <a href="Rot2.html">Rot2</a>
+  <a href="Vigenere.html">The Vigenere Cipher</a>
+
+</div>
+
+</head>
+<body>
+
+
+    <h1> The Atbash Cipher</h1>
+
+
+
+    <p> The Atbash Cipher is a cipher where the albhabet is simply reveresed, each letter is replaced witht the corresponding letter 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' becomes 'ZYXWVUTSRQPONMLKJIHGFEDCBA'</p>
+
+    <form wrap="soft">
+
+      Give it a go:<br>
+<input type="text" id="bash"><br>
+Please enter a numerical key:<br>
+
+
+  </form>
+    <button type=button onclick=ciphering();>encrypt</button>
+
+
+    <button type=button onclick=decipher();>decrypt</button>
+    <p id="test"></p>
+
+
+
+
+</body>
+</html>

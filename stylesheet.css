@@ -1,0 +1,33 @@
+body {
+
+  text-align: center;
+  background: rgba(76, 175, 80, 0.3);
+
+}
+
+
+h1 {
+
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+p {
+  color: black;
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+label {
+  color: black
+
+}
+
+form {
+
+  color: black
+}
