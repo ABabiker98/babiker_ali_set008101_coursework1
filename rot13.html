@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+	<title>Rot13</title>
+    <script type="text/javascript" src="Rot2.js"></script>
+    <style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+</style>
+<div class="navbar">
+  <a href="index2.html">Home</a>
+  <a href="Atbash.html">The Atbash Cipher</a>
+  <a href="Ceaser.html">The Ceaser Cipher</a>
+  <a href="Rot13.html">Rot13</a>
+  <a href="Vigenere.html">The Vigenere Cipher</a>
+  <a href="design.html"> Design Page</a>
+
+</div>
+
+</head>
+<body>
+    <h1><img src="rot2pic.jpg" style="float:left; height:240px">
+      <img src="rot2pic.jpg" style="float:right; height:240px">
+      Rot2 - A Ceaser Cipher</h1>
+
+
+    <p>
+      Rot13 is a Ceaser Cipher with a predetermined shift of 13. In terms of programing and logistics
+      Rot13 is one of the simplest ciphers out there.</p>
+
+
+
+      <form wrap="soft">
+        Give it a go:<br>
+  <input type="text" id="rot"><br>
+
+      </form>
+
+    <button type="button" onclick= ciphering();>encrypt</button>
+    <button type="button" onclick=decipher();>decrypt</button>
+    <p id="test"></p>
+
+
+
+
+
+
+
+
+</body>
+</html>

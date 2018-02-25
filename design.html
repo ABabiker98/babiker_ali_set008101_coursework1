@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Design Page</title>
+
+    <style>
+
+    body {margin:0%;}
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .main {
+      padding: 16px;
+      margin-top: 30px;
+        height: 1500px; /* Used in this example to enable scrolling */
+
+    }
+    </style>
+
+
+    <div class="navbar">
+      <a href="index2.html">Home</a>
+      <a href="Atbash.html">The Atbash Cipher</a>
+      <a href="Ceaser.html">The Ceaser Cipher</a>
+      <a href="Rot13.html">Rot13</a>
+      <a href="Vigenere.html">The Vigenere Cipher</a>
+      <a href="design.html"> Design Page</a>
+
+    </div>
+
+    </head>
+    <body>
+
+  <h1><img src="running.gif" style="float:left; height:240px">
+  <img src="running.gif" style="float:right; height:240px">
+    Each page has one header, right here</h1>
+    <p style="10px">As well as a GIF or image on either side of it</p>
+
+    <p>Beneath the header is some information about the respective cipher</p>
+
+
+            <form>
+
+              This part of each page<br>
+              Allows for encryption and decryption of messages<br>
+                User message is input here:<br>
+        <input type="text" id="des"><br>
+
+
+        <button type=button onclick=ciphering();>encrypt</button>
+
+        <button type=button onclick=decipher();>decrypt</button><br>
+
+
+            <form wrap="soft">
+
+        And a key is input here (for the Vigenere and Ceaser):<br>
+        <input type="text" id="desmond"><br>
