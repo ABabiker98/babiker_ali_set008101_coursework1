@@ -1,7 +1,9 @@
 body {
 
   text-align: center;
-  background: rgba(76, 175, 80, 0.3);
+  background: rgba(0, 0, 0, 1.0)
+
+
 
 }
 
@@ -9,25 +11,28 @@ body {
 h1 {
 
   text-align: center;
-  color: black;
+  color: #00cc00;
   font-size: 35px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-transform: capitalize;
+  margin-top: 70px;
 }
 
 p {
-  color: black;
+  color: #00cc00;
   font-size: 25px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 
 }
 
 label {
-  color: black
+  color: #00cc00;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 }
 
 form {
 
-  color: black
+  color: #00cc00
 }

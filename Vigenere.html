@@ -39,11 +39,12 @@ body {margin:0;}
 </style>
 </style>
 <div class="navbar">
-  <a href="index.html">Home</a>
+  <a href="index2.html">Home</a>
   <a href="Atbash.html">The Atbash Cipher</a>
   <a href="Ceaser.html">The Ceaser Cipher</a>
-  <a href="Rot2.html">Rot2</a>
+  <a href="Rot13.html">Rot13</a>
   <a href="Vigenere.html">The Vigenere Cipher</a>
+  <a href="design.html"> Design Page</a>
 
 </div>
 
@@ -51,9 +52,12 @@ body {margin:0;}
 
 
 <body>
-    <h1>The Vigenère Cipher</h1>
+    <h1><img src="vigsquare.png" style="float:left; height:360px">
+    <img src="vigsquare.png" style="float:right; height:360px">
+      The Vigenère Cipher</h1>
 
-    <p>A polyalphabetical cipher</p>
+    <p>A polyalphabetical cipher which uses a 26x26 square of
+    the alphabet to encrypt a message by using a keyword</p>
 
 
 
@@ -66,7 +70,7 @@ body {margin:0;}
 
     <button type=button onclick=ciphering();>encrypt</button>
 
-    <button>decrypt</button><br>
+    <button type=button onclick=decipher();>decrypt</button><br>
 
 
         <form wrap="soft">

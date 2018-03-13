@@ -10,9 +10,7 @@ function ciphering() {
   var x;
 
   for (i = 0; i < uInput.length; i++) {
-
     for (j = 0; j < alphabet.length; j++) {
-
 
       if (uInput[i] == " ") {
         output += uInput[i];
@@ -26,9 +24,7 @@ function ciphering() {
   document.getElementById("test").innerHTML = output;
 }
 
-
 function decipher() {
-
   var uInput = document.getElementById("bash").value;
   var alphaverse = ['z', 'y', 'x', 'w', 'v', 'u', 't', 's', 'r', 'q', 'p', 'o', 'n', 'm', 'l',
     'k', 'j', 'i', 'h', 'g', 'f', 'e', 'd', 'c', 'b', 'a'
@@ -38,22 +34,16 @@ function decipher() {
   ];
   var output = "";
   var x;
-
   for (i = 0; i < uInput.length; i++)
   {
-
     for (j = 0; j < alphabet.length; j++)
     {
-
-
       if (uInput[i] == " ")
       {
-
         output += uInput[i];
       }
       else if (uInput[i] == alphaverse[j])
       {
-
         var index2 = j;
         x = alphabet[index2];
         output += x;
